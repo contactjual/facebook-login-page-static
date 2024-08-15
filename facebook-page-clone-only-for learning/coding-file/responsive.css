@@ -1,0 +1,23 @@
+@media screen and (max-width: 520px) {
+    .container {
+        width: 96%;
+    }
+    .content-area {
+        flex-direction: column;
+        padding: 35px 0;
+        margin-left: 0px;
+    }
+    .left-side {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .left-side h2 {
+        font-size: 22px;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    .form-area {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
