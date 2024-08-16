@@ -21,24 +21,26 @@ body {
 }
 .content-area {
     display: flex;
-    
     justify-content: space-between;
     padding: 72px 0 112px;
-    margin-left: -25px;
-    align-items: center;
-    
+    /* margin-left: -30px; */
+    align-items: center; 
 }
 .left-side {
     flex-basis: 540px;
+    position: relative;
+    bottom: 85px;
 }
 .left-side img {
-    width: 300px;
+    width: 350px;
+    margin-left: -35px;
+    padding-left: -20px;
 }
 .left-side h2 {
     color: #1c1e21;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: normal;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 .form-area {
     flex-basis: 396px;
@@ -48,7 +50,7 @@ body {
     background: #fff;
     box-shadow: 0 0 10px #ddd;
     border-radius: 10px;
-    padding: 15pxp;
+    padding: 20px;
     text-align: center;
 }
 .form-area input {
@@ -72,10 +74,10 @@ body {
     background: #36a420;
     border: 1px solid #36a423;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    padding: 16px;
+    padding: 15px;
     border-radius: 6px;
     margin-top: 25px;
     margin-bottom: 15px;
